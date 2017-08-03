@@ -1,6 +1,7 @@
 package com.sns.suraj.githubproject;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -24,5 +25,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void saveNoteClicked(View view) {
         Toast.makeText(getApplicationContext(), "saved", Toast.LENGTH_SHORT).show();
+
+
+        new Handler();
     }
 }
