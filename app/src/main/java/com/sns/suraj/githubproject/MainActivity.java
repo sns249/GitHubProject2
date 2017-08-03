@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void saveNoteClicked(View view) {
         Toast.makeText(getApplicationContext(), "saved", Toast.LENGTH_SHORT).show();
-
-
+        FragmentTransaction fragmentTransaction;
+//dafadfadfaafdaeer
         new Handler();
     }
 }
